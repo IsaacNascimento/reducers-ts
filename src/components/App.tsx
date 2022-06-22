@@ -1,5 +1,6 @@
 import React from 'react';
 import { SongsList } from './songList';
+import { SongDetail } from './songDetail';
 
 export const App = () => {
   return (
@@ -7,6 +8,9 @@ export const App = () => {
       <div className="ui row">
         <div className='column eight wide'>
           <SongsList />
+        </div>
+        <div className='column eight wide'>
+          <SongDetail />
         </div>
       </div>
     </div>
